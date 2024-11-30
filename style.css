@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .navbar-brand {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li {
+    margin-right: 20px;
+    color: black;
+    font-size: 18px;
+} 
+.image{
+    background-image: url("https://plus.unsplash.com/premium_photo-1685207267343-1c8852b45575?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3ljbGluZ3xlbnwwfHwwfHx8MA%3D%3D");
+    
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.home{
+    padding: 200px;
+
+}
+
+#wel{
+    font-weight: 100;
+    color: whitesmoke;
+}
+#wel2{
+    font-weight: 100;
+    color: aliceblue;
+}
+.buttons2{
+   
+    color: white;
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 8px; 
+    
+  }
+  
+  .cards {
+    width: 300px;
+    background-color:lightsteelblue;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(28, 26, 22);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.Book-title
+{
+    color: azure;
+}
+
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+#btn3{
+    background-color: green;
+    color: white;
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 8px; 
+     
+}
+#btn4{
+    background-color: green;
+    color: white;
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 8px; 
+    
+}
+.button{
+    
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 24px; 
+        text-align: center; 
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px; 
+        border-radius: 8px; 
+}
